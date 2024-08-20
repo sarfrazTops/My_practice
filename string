@@ -1,0 +1,91 @@
+                                    #String
+str="hello python"
+print(type(str))
+print(str)
+
+#OUTPUT:-
+
+#<class 'str'>
+#hello python       #create a simple string and check  of a type.           
+
+
+
+#IDEX SLICING
+
+str="i am python devloper"
+print(str[1:])
+print(str[ :7])
+print(str[5:10])
+print(str[1:5])
+print(str[-1:-8])
+print(str[-8: ])
+print(str[-1:])
+
+
+#OUTPUT
+
+#am python devloper
+#i am py
+#pytho
+# am 
+
+#evloper
+#r
+
+
+ #DIFFERENT METHOD PRINT:-
+
+
+car = "kia"
+price = 200000
+avg = 30
+print("car name is kia and price is 200000 and pages are 30")
+print(f"car name is {car} and price is {price} and avg are {avg}")
+print("car name is {} and price is {} and avg are {}".format(car,price,avg))
+
+#OUTPUT:-
+
+#car name is kia and price is 200000 and pages are 30
+#car name is kia and price is 200000 and avg are 30
+#car name is kia and price is 200000 and avg are 30
+
+
+##################
+
+str="i am python devloper"
+print(str.startswith("i"))
+print(str.endswith("er"))
+print(str.replace("i","took"))
+print(str.find("p"))
+print(str.count("o"))
+
+#OUTPUT:-
+
+#True
+#True
+#took am python devloper
+#5
+#2
+
+##########################
+
+
+str="i am python devloper"
+print(str.upper())
+print(str.lower())
+print(str.swapcase())
+print(str.lstripe())
+print(str.rstripe())
+print(str.capitalize())
+print(str.strip())
+print(str.title())
+
+
+
+
+
+
+
+
+
+

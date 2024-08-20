@@ -1,0 +1,40 @@
+#END & SEP PARAMETER:-
+
+#END
+
+print("sarfraz","khan","nisha",end="-")
+print("tops","work","ass")
+
+OUTPUT:-sarfraz khan nisha-tops work ass
+
+print("hello world",end=" ")
+print("python popular language")
+
+OUTPUT:-hello world python popular language
+
+hello world python popular language
+
+print(11,22,33,44,55,end="-")
+print(10,20,30,40,50,)
+
+OUTPUT:-11 22 33 44 55-10 20 30 40 50
+
+#SEP
+
+PRINT("IBAM SJD DJHFH FNFJ",SEP="-")
+
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 1, in <module>
+NameError: name 'PRINT' is not defined
+
+=== Code Exited With Errors ===
+
+print("SARFRAZ","KHAN","TOP",sep="-")
+
+OUTPUT=SARFRAZ-KHAN-TOP
+
+
+print(11,22,3,4,44,5,sep="-")
+
+OUTPUT=11-22-3-4-44-5

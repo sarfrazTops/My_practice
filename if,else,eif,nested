@@ -1,0 +1,115 @@
+#CONDITIONAL STATMENT
+
+while True:
+     age=int(input("enter the age:-"))
+
+    
+     if(age>=18 and age<=100):
+         if(age>=18):
+             print("true")
+         else:
+             print("false")
+     else:
+         print("enter the vaild age")
+
+
+    #OUTPUT:-enter tha age:-20
+    # true
+    # enter the age:-
+
+
+    #while True:
+
+    light=input("Enter the color:-")
+
+    if light=="red":
+        print("wait")
+    elif light=="yellow":
+        print("look")
+    elif light=="green":
+        print("go")
+
+#Enter the color:-red
+#wait
+#Enter the color:-green
+#go
+#Enter the color:-yellow
+#look
+#Enter the color:-   
+
+
+while True:
+    marks=int(input("Enter the marks:-"))
+
+    if(marks>=90 and marks<=100):
+        print("Grade:A")
+    if(marks>=60 and marks<=70):
+        print("Grade:B")
+    if(marks>=40 and marks<=50):
+        print("GradE:C")
+
+
+#OPTPUT:-
+#Enter the marks:-99
+#Grade:A
+#Enter the marks:-70
+#Grade:B
+#Enter the marks:-45
+#GradE:C
+#Enter the marks:-
+
+
+
+while True:
+    num=int(input("enter the number"))
+
+    if(num%2==0):
+        print("even")
+    else:
+        print("odd")
+        
+
+#OUTPUT:-
+#enter the number2
+#even
+#enter the number3
+#odd
+#enter the number
+
+
+
+num1=10
+num=20
+
+symbol=input("Enter the symbol")
+
+match symbol:
+    case"+":
+        print(num1+num)
+    case"-":
+        print(num1-num)
+    case"*":
+        print(num1*num)
+    case _:
+        print("you have  not entered the symbol ")
+
+
+#OUTPUT:-
+Enter the symbol+
+30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           

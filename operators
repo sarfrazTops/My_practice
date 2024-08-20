@@ -1,0 +1,80 @@
+                                 #operators
+
+#Arithmetic operators:-     
+
+
+num=39
+num=98
+
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+print(num1/num2)
+print(num1%num2)
+print(num1**num2)
+print(num1//num2)
+
+
+
+#Comparison operators:-
+
+
+
+num=39
+num=98
+
+print(num1==num2)
+print(num1<num2)
+print(num1>num2)
+print(num1<=num2)
+print(num1>=num2)
+print(num1!=num2)
+print(num1//num2)
+
+
+#Logical operators:-
+
+a=13
+b=2
+
+print(a<b and a>b)
+print(a>b or a<b)
+print(not(a<b and a>b))
+
+
+#Btwise opeators:-
+
+
+a=5
+b=6
+
+print(a&b)
+print(a|b)
+print(a^b)
+print(a~b)
+print(a>>b)
+print(a<<b)
+
+
+
+
+#Identity operator:-
+
+a=3
+b=8
+
+print(a is b)
+print(a is not b)
+
+
+#Mempership operators:-
+
+
+code = "python"
+print('p' in code)
+print('py' in code)
+print('Py' in code)
+print('Py' not in code)
+print('pto' in code)
+
+
