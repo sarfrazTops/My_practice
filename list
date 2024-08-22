@@ -1,0 +1,91 @@
+#LIST
+
+#-List also a non-homogenous data structure.
+#-whic stores single row and multiple row and columns.
+#-list is mutable i.e we can make any change in list.
+#-list can represent by [].
+#-list allow duplicate element.
+
+
+#############################
+
+#check the list method.
+
+my_list = []
+print(dir(my_list))
+
+#['append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+
+
+
+
+
+l=["sarfraz","khan","riyaz","nisha","home"]
+l[2]=("manoj")
+print(l)
+
+#OUTPUT:-
+
+#['sarfraz', 'khan', 'manoj', 'nisha', 'home']
+
+
+
+l=["sarfraz","khan","riyaz","nisha","home"]
+if "khan" in l:
+    print("yes")
+
+else:
+    print("no")
+
+#OUTPUT:-yes
+
+l=["sarfraz","khan","riyaz","nisha","home"]
+l.append("babu")
+print(l)
+
+
+#OUTPUT:-
+
+#['sarfraz', 'khan', 'riyaz', 'nisha', 'home', 'babu']
+
+
+
+lis=[10,9,8,7,6,5,4,3,2,1]
+print(lis.sort())
+print(lis)
+
+#[1,2,3,4,5,6,7,8,9,10]
+
+lis=[1,2,3,4,5,6,7]
+print(lis.sort(reverse=True))
+print(lis)
+
+lis=[1,2,3,4,5,6,7]
+lis.reverse()
+print(lis)
+
+# Both are same return value same work but different method.
+
+#OUTPUT
+
+[7,6,5,4,3,2,1]
+
+
+lis=[1,2,3,4,5,6,7]
+lis.insert(1,50)
+print(lis)
+
+# OUTPUT:-
+[1,50,2,3,4,5,6,7]
+
+
+lis=[1,2,3,4,5,6,7]
+lis.pop(6)
+print(lis)
+
+#OUTPUT:-
+
+[1,2,3,4,5,6]
+
+
+
