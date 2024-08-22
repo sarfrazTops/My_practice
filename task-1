@@ -1,0 +1,74 @@
+# Task:-
+
+#(1)write a program and get the string from the user
+    #- count the words of the given string.
+
+str=input(("Enter the string:-"))
+cou=len(str.split())
+print(cou)
+
+
+#(2)write a program and get the string from the user
+    # count the char of the given string.
+
+cou = input("Enter a string")
+a=(len(cou))
+print(a)
+        
+#(3)count the digits of the given string.
+#(4)count the special characters of the given string.
+#(5)count the upper case letters of the given string.
+#(6)count the special characters of the given string.
+
+a=input("Enter the string:-")
+u=0
+l=0
+digit=0
+special_c=0
+for ch in a:
+    if ch.isupper():
+        u += 1
+    elif ch.islower():
+        l += 1
+    elif ch.isdigit():
+        digit += 1
+    else:
+        special_c += 1
+        
+        
+        
+print("upper case char",u)
+print("lower case char",l)
+print("digit case",digit)
+print("special case",special_c)
+
+
+
+
+#(7)count the spaces of the given string.
+
+
+str = input("Enter a string: ")
+spac = 0
+for cha in str:
+    if cha == ' ':
+        spac += 1
+    
+print(spac)
+
+#(8)count the new line of the given string.
+#(9)count the tabs of the given string.
+    
+str = input("Enter a string:-")
+new_lin = 0
+ch_tab=0
+for cha in str:
+    if cha == '\n':
+        new_lin += 1
+    elif cha == '\t':
+        ch_tab += 1    
+print(new_lin)
+print(ch_tab)
+
+
+
